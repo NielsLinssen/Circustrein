@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "501EBiD3je7CjoZpKsxHRL7ujbpbGOh9LS6+ZbVorI3y+okNAeu2PMdvyJ9m9GKEg89H1H0OqS/lwn3/2zTUig==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Niels Linssen\\source\\repos\\CircusTrein\\Logic\\Logic.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Niels Linssen\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\Niels Linssen\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

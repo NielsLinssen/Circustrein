@@ -1,0 +1,16 @@
+C:\Users\Niels Linssen\source\repos\CircusTrein\CircusTrein\bin\Debug\netcoreapp3.1\CircusTrein.exe
+C:\Users\Niels Linssen\source\repos\CircusTrein\CircusTrein\bin\Debug\netcoreapp3.1\CircusTrein.deps.json
+C:\Users\Niels Linssen\source\repos\CircusTrein\CircusTrein\bin\Debug\netcoreapp3.1\CircusTrein.runtimeconfig.json
+C:\Users\Niels Linssen\source\repos\CircusTrein\CircusTrein\bin\Debug\netcoreapp3.1\CircusTrein.runtimeconfig.dev.json
+C:\Users\Niels Linssen\source\repos\CircusTrein\CircusTrein\bin\Debug\netcoreapp3.1\CircusTrein.dll
+C:\Users\Niels Linssen\source\repos\CircusTrein\CircusTrein\bin\Debug\netcoreapp3.1\CircusTrein.pdb
+C:\Users\Niels Linssen\source\repos\CircusTrein\CircusTrein\bin\Debug\netcoreapp3.1\Logic.dll
+C:\Users\Niels Linssen\source\repos\CircusTrein\CircusTrein\bin\Debug\netcoreapp3.1\Logic.pdb
+C:\Users\Niels Linssen\source\repos\CircusTrein\CircusTrein\obj\Debug\netcoreapp3.1\CircusTrein.csprojAssemblyReference.cache
+C:\Users\Niels Linssen\source\repos\CircusTrein\CircusTrein\obj\Debug\netcoreapp3.1\CircusTrein.AssemblyInfoInputs.cache
+C:\Users\Niels Linssen\source\repos\CircusTrein\CircusTrein\obj\Debug\netcoreapp3.1\CircusTrein.AssemblyInfo.cs
+C:\Users\Niels Linssen\source\repos\CircusTrein\CircusTrein\obj\Debug\netcoreapp3.1\CircusTrein.csproj.CoreCompileInputs.cache
+C:\Users\Niels Linssen\source\repos\CircusTrein\CircusTrein\obj\Debug\netcoreapp3.1\CircusTrein.csproj.CopyComplete
+C:\Users\Niels Linssen\source\repos\CircusTrein\CircusTrein\obj\Debug\netcoreapp3.1\CircusTrein.dll
+C:\Users\Niels Linssen\source\repos\CircusTrein\CircusTrein\obj\Debug\netcoreapp3.1\CircusTrein.pdb
+C:\Users\Niels Linssen\source\repos\CircusTrein\CircusTrein\obj\Debug\netcoreapp3.1\CircusTrein.genruntimeconfig.cache

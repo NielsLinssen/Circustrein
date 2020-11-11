@@ -1,0 +1,9 @@
+C:\Users\Niels Linssen\source\repos\CircusTrein\Logic\bin\Debug\netstandard2.0\Logic.deps.json
+C:\Users\Niels Linssen\source\repos\CircusTrein\Logic\bin\Debug\netstandard2.0\Logic.dll
+C:\Users\Niels Linssen\source\repos\CircusTrein\Logic\bin\Debug\netstandard2.0\Logic.pdb
+C:\Users\Niels Linssen\source\repos\CircusTrein\Logic\obj\Debug\netstandard2.0\Logic.csprojAssemblyReference.cache
+C:\Users\Niels Linssen\source\repos\CircusTrein\Logic\obj\Debug\netstandard2.0\Logic.AssemblyInfoInputs.cache
+C:\Users\Niels Linssen\source\repos\CircusTrein\Logic\obj\Debug\netstandard2.0\Logic.AssemblyInfo.cs
+C:\Users\Niels Linssen\source\repos\CircusTrein\Logic\obj\Debug\netstandard2.0\Logic.csproj.CoreCompileInputs.cache
+C:\Users\Niels Linssen\source\repos\CircusTrein\Logic\obj\Debug\netstandard2.0\Logic.dll
+C:\Users\Niels Linssen\source\repos\CircusTrein\Logic\obj\Debug\netstandard2.0\Logic.pdb
