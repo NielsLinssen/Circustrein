@@ -6,7 +6,7 @@ namespace Logic
 {
     public class Train
     {
-        private List<Wagon> Wagons = new List<Wagon>();
+        public List<Wagon> Wagons = new List<Wagon>();
 
         /// <summary>
         /// Empty Constructor
@@ -16,28 +16,47 @@ namespace Logic
         public void AddAnimal(Animal animal)
         {
             // Standard Wagon is null, easier to check if the object is filled or not
-            Wagon wagon = null;
+            Wagon wagon = GetSmallestEligeableWagon(animal);
 
-            // We have to loop through all the wagons to determine if we can put it in an existing one
-            foreach (Wagon _wagon in Wagons)
+            // If the size is 10 this means there are no animals in the wagon yet
+            // AKA, new wagon object
+            if (wagon.GetSize() == 10)
             {
-                // Check if we can add the current animal in an existing wagon
-                if (_wagon.CheckAnimalAdd(animal))
-                {
-                    wagon = _wagon;
-                    // We have been able to add the animal to a wagon so break out of the loop
-                    break;
-                }
-            }
-
-            // wagon is still null meaning the animal could not be added. Add it to a new one instead
-            if (wagon == null)
-            {
-                wagon = new Wagon();
                 Wagons.Add(wagon);
             }
 
             wagon.AddAnimal(animal);
+        }
+
+        /// <summary>
+        /// Get the smallest wagon the animal would still be allowed in.
+        /// </summary>
+        /// <param name="animal"></param>
+        /// <returns></returns>
+        public Wagon GetSmallestEligeableWagon(Animal animal)
+        {
+            Wagon wagon = null;
+
+            foreach (Wagon _wagon in Wagons)
+            {
+                if (_wagon.CheckAnimalAdd(animal))
+                {
+                    // If wagon is null fill it
+                    // If old wagon is bigger than new eligiable wagon replace it.
+                    if (wagon == null || wagon.GetSize() > _wagon.GetSize())
+                    {
+                        wagon = _wagon;
+                    }
+                }
+            }
+
+            // Just in case
+            if (wagon == null || wagon.GetSize() < animal.GetSize())
+            {
+                wagon = new Wagon();
+            }
+
+            return wagon;
         }
 
         public string FormatWagons()

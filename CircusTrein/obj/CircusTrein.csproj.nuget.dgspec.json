@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Niels Linssen\\source\\repos\\CircusTrein\\CircusTrein\\CircusTrein.csproj": {}
+    "C:\\Users\\niels\\source\\repos\\Circustrein\\CircusTrein\\CircusTrein.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Niels Linssen\\source\\repos\\CircusTrein\\CircusTrein\\CircusTrein.csproj": {
+    "C:\\Users\\niels\\source\\repos\\Circustrein\\CircusTrein\\CircusTrein.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Niels Linssen\\source\\repos\\CircusTrein\\CircusTrein\\CircusTrein.csproj",
+        "projectUniqueName": "C:\\Users\\niels\\source\\repos\\Circustrein\\CircusTrein\\CircusTrein.csproj",
         "projectName": "CircusTrein",
-        "projectPath": "C:\\Users\\Niels Linssen\\source\\repos\\CircusTrein\\CircusTrein\\CircusTrein.csproj",
-        "packagesPath": "C:\\Users\\Niels Linssen\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Niels Linssen\\source\\repos\\CircusTrein\\CircusTrein\\obj\\",
+        "projectPath": "C:\\Users\\niels\\source\\repos\\Circustrein\\CircusTrein\\CircusTrein.csproj",
+        "packagesPath": "C:\\Users\\niels\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\niels\\source\\repos\\Circustrein\\CircusTrein\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\Niels Linssen\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\niels\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
@@ -31,8 +31,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\Users\\Niels Linssen\\source\\repos\\CircusTrein\\Logic\\Logic.csproj": {
-                "projectPath": "C:\\Users\\Niels Linssen\\source\\repos\\CircusTrein\\Logic\\Logic.csproj"
+              "C:\\Users\\niels\\source\\repos\\Circustrein\\Logic\\Logic.csproj": {
+                "projectPath": "C:\\Users\\niels\\source\\repos\\Circustrein\\Logic\\Logic.csproj"
               }
             }
           }
@@ -60,24 +60,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Niels Linssen\\source\\repos\\CircusTrein\\Logic\\Logic.csproj": {
+    "C:\\Users\\niels\\source\\repos\\Circustrein\\Logic\\Logic.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Niels Linssen\\source\\repos\\CircusTrein\\Logic\\Logic.csproj",
+        "projectUniqueName": "C:\\Users\\niels\\source\\repos\\Circustrein\\Logic\\Logic.csproj",
         "projectName": "Logic",
-        "projectPath": "C:\\Users\\Niels Linssen\\source\\repos\\CircusTrein\\Logic\\Logic.csproj",
-        "packagesPath": "C:\\Users\\Niels Linssen\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Niels Linssen\\source\\repos\\CircusTrein\\Logic\\obj\\",
+        "projectPath": "C:\\Users\\niels\\source\\repos\\Circustrein\\Logic\\Logic.csproj",
+        "packagesPath": "C:\\Users\\niels\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\niels\\source\\repos\\Circustrein\\Logic\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\Niels Linssen\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\niels\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
@@ -119,7 +119,7 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
         }
       }
     }

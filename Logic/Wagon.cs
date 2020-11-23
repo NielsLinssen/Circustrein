@@ -7,7 +7,7 @@ namespace Logic
 {
     public class Wagon
     {
-        private int MaxSize = 10;
+        private int Size = 10;
 
         private List<Animal> Animals = new List<Animal>();
 
@@ -22,7 +22,7 @@ namespace Logic
         /// <returns></returns>
         public int GetSize()
         {
-            return MaxSize;
+            return Size;
         }
 
         /// <summary>
@@ -33,7 +33,7 @@ namespace Logic
         {
             // Add the animal to the list and decrease the wagon size
             Animals.Add(animal);
-            MaxSize -= animal.GetSize();
+            Size -= animal.GetSize();
         }
 
         /// <summary>
@@ -45,7 +45,7 @@ namespace Logic
         {
             // Check if the maxsize is bigger than the animal size
             // If not we need a new wagon
-            if (MaxSize >= animal.GetSize())
+            if (Size >= animal.GetSize())
             {
                 // Flow changes if the animal is a Carnivore so check for that
                 if (animal is Carnivore)
@@ -82,16 +82,6 @@ namespace Logic
         /// <returns></returns>
         private bool CheckCarnivore()
         {
-            // Animals.Any(a => a is Carnivore) is always false.
-            //if (Animals.Any(a => a is Carnivore))
-            //{
-            //    return true;
-            //}
-            //else
-            //{
-            //    return false;
-            //}
-
             // We'll loop through the animals to check
             foreach(Animal animal in Animals)
             {

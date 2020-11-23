@@ -27,23 +27,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Niels Linssen\\.nuget\\packages\\": {},
+    "C:\\Users\\niels\\.nuget\\packages\\": {},
     "C:\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Niels Linssen\\source\\repos\\CircusTrein\\CircusTrein\\CircusTrein.csproj",
+      "projectUniqueName": "C:\\Users\\niels\\source\\repos\\Circustrein\\CircusTrein\\CircusTrein.csproj",
       "projectName": "CircusTrein",
-      "projectPath": "C:\\Users\\Niels Linssen\\source\\repos\\CircusTrein\\CircusTrein\\CircusTrein.csproj",
-      "packagesPath": "C:\\Users\\Niels Linssen\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Niels Linssen\\source\\repos\\CircusTrein\\CircusTrein\\obj\\",
+      "projectPath": "C:\\Users\\niels\\source\\repos\\Circustrein\\CircusTrein\\CircusTrein.csproj",
+      "packagesPath": "C:\\Users\\niels\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\niels\\source\\repos\\Circustrein\\CircusTrein\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\"
       ],
       "configFilePaths": [
-        "C:\\Users\\Niels Linssen\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\niels\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
@@ -57,8 +57,8 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "C:\\Users\\Niels Linssen\\source\\repos\\CircusTrein\\Logic\\Logic.csproj": {
-              "projectPath": "C:\\Users\\Niels Linssen\\source\\repos\\CircusTrein\\Logic\\Logic.csproj"
+            "C:\\Users\\niels\\source\\repos\\Circustrein\\Logic\\Logic.csproj": {
+              "projectPath": "C:\\Users\\niels\\source\\repos\\Circustrein\\Logic\\Logic.csproj"
             }
           }
         }
@@ -86,7 +86,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
       }
     }
   }

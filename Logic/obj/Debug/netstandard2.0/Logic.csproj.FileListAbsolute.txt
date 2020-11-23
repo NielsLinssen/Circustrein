@@ -7,3 +7,12 @@ C:\Users\Niels Linssen\source\repos\CircusTrein\Logic\obj\Debug\netstandard2.0\L
 C:\Users\Niels Linssen\source\repos\CircusTrein\Logic\obj\Debug\netstandard2.0\Logic.csproj.CoreCompileInputs.cache
 C:\Users\Niels Linssen\source\repos\CircusTrein\Logic\obj\Debug\netstandard2.0\Logic.dll
 C:\Users\Niels Linssen\source\repos\CircusTrein\Logic\obj\Debug\netstandard2.0\Logic.pdb
+C:\Users\niels\source\repos\Circustrein\Logic\bin\Debug\netstandard2.0\Logic.deps.json
+C:\Users\niels\source\repos\Circustrein\Logic\bin\Debug\netstandard2.0\Logic.dll
+C:\Users\niels\source\repos\Circustrein\Logic\bin\Debug\netstandard2.0\Logic.pdb
+C:\Users\niels\source\repos\Circustrein\Logic\obj\Debug\netstandard2.0\Logic.csprojAssemblyReference.cache
+C:\Users\niels\source\repos\Circustrein\Logic\obj\Debug\netstandard2.0\Logic.AssemblyInfoInputs.cache
+C:\Users\niels\source\repos\Circustrein\Logic\obj\Debug\netstandard2.0\Logic.AssemblyInfo.cs
+C:\Users\niels\source\repos\Circustrein\Logic\obj\Debug\netstandard2.0\Logic.csproj.CoreCompileInputs.cache
+C:\Users\niels\source\repos\Circustrein\Logic\obj\Debug\netstandard2.0\Logic.dll
+C:\Users\niels\source\repos\Circustrein\Logic\obj\Debug\netstandard2.0\Logic.pdb

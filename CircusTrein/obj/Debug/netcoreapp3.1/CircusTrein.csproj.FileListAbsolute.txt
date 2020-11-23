@@ -14,3 +14,19 @@ C:\Users\Niels Linssen\source\repos\CircusTrein\CircusTrein\obj\Debug\netcoreapp
 C:\Users\Niels Linssen\source\repos\CircusTrein\CircusTrein\obj\Debug\netcoreapp3.1\CircusTrein.dll
 C:\Users\Niels Linssen\source\repos\CircusTrein\CircusTrein\obj\Debug\netcoreapp3.1\CircusTrein.pdb
 C:\Users\Niels Linssen\source\repos\CircusTrein\CircusTrein\obj\Debug\netcoreapp3.1\CircusTrein.genruntimeconfig.cache
+C:\Users\niels\source\repos\Circustrein\CircusTrein\bin\Debug\netcoreapp3.1\CircusTrein.exe
+C:\Users\niels\source\repos\Circustrein\CircusTrein\bin\Debug\netcoreapp3.1\CircusTrein.deps.json
+C:\Users\niels\source\repos\Circustrein\CircusTrein\bin\Debug\netcoreapp3.1\CircusTrein.runtimeconfig.json
+C:\Users\niels\source\repos\Circustrein\CircusTrein\bin\Debug\netcoreapp3.1\CircusTrein.runtimeconfig.dev.json
+C:\Users\niels\source\repos\Circustrein\CircusTrein\bin\Debug\netcoreapp3.1\CircusTrein.dll
+C:\Users\niels\source\repos\Circustrein\CircusTrein\bin\Debug\netcoreapp3.1\CircusTrein.pdb
+C:\Users\niels\source\repos\Circustrein\CircusTrein\bin\Debug\netcoreapp3.1\Logic.dll
+C:\Users\niels\source\repos\Circustrein\CircusTrein\bin\Debug\netcoreapp3.1\Logic.pdb
+C:\Users\niels\source\repos\Circustrein\CircusTrein\obj\Debug\netcoreapp3.1\CircusTrein.csprojAssemblyReference.cache
+C:\Users\niels\source\repos\Circustrein\CircusTrein\obj\Debug\netcoreapp3.1\CircusTrein.AssemblyInfoInputs.cache
+C:\Users\niels\source\repos\Circustrein\CircusTrein\obj\Debug\netcoreapp3.1\CircusTrein.AssemblyInfo.cs
+C:\Users\niels\source\repos\Circustrein\CircusTrein\obj\Debug\netcoreapp3.1\CircusTrein.csproj.CoreCompileInputs.cache
+C:\Users\niels\source\repos\Circustrein\CircusTrein\obj\Debug\netcoreapp3.1\CircusTrein.csproj.CopyComplete
+C:\Users\niels\source\repos\Circustrein\CircusTrein\obj\Debug\netcoreapp3.1\CircusTrein.dll
+C:\Users\niels\source\repos\Circustrein\CircusTrein\obj\Debug\netcoreapp3.1\CircusTrein.pdb
+C:\Users\niels\source\repos\Circustrein\CircusTrein\obj\Debug\netcoreapp3.1\CircusTrein.genruntimeconfig.cache
