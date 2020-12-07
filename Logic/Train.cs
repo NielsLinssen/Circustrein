@@ -15,48 +15,26 @@ namespace Logic
 
         public void AddAnimal(Animal animal)
         {
-            // Standard Wagon is null, easier to check if the object is filled or not
-            Wagon wagon = GetSmallestEligeableWagon(animal);
+            bool isAdded = false;
 
-            // If the size is 10 this means there are no animals in the wagon yet
-            // AKA, new wagon object
-            if (wagon.GetSize() == 10)
-            {
-                Wagons.Add(wagon);
-            }
-
-            wagon.AddAnimal(animal);
-        }
-
-        /// <summary>
-        /// Get the smallest wagon the animal would still be allowed in.
-        /// </summary>
-        /// <param name="animal"></param>
-        /// <returns></returns>
-        public Wagon GetSmallestEligeableWagon(Animal animal)
-        {
-            Wagon wagon = null;
-
+            // Loop through wagons to try to add the animal
             foreach (Wagon _wagon in Wagons)
             {
-                if (_wagon.CheckAnimalAdd(animal))
+                if (_wagon.TryAddAnimal(animal))
                 {
-                    // If wagon is null fill it
-                    // If old wagon is bigger than new eligiable wagon replace it.
-                    if (wagon == null || wagon.GetSize() > _wagon.GetSize())
-                    {
-                        wagon = _wagon;
-                    }
+                    isAdded = true;
+                    break;
                 }
             }
 
-            // Just in case
-            if (wagon == null || wagon.GetSize() < animal.GetSize())
+            // If the animal is not added to any wagon create and empty wagon and add the animal to it
+            if (!isAdded)
             {
-                wagon = new Wagon();
-            }
+                Wagon wagon = new Wagon();
+                wagon.TryAddAnimal(animal);
 
-            return wagon;
+                Wagons.Add(wagon);
+            }
         }
 
         public string FormatWagons()

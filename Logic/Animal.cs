@@ -10,6 +10,8 @@ namespace Logic
 
         private int Size;
 
+        public Animal() { }
+
         public Animal(string name, int size)
         {
             Name = name;

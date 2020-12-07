@@ -8,32 +8,15 @@ namespace UnitTestsCircusTrein
     public class UnitTests
     {
         [TestMethod]
-        /// Check if the wagons get used optimally.
-        public void OptimalHerbivoreTest()
+        public void AddAnimal()
         {
             Train train = new Train();
 
-            Wagon wagon1 = new Wagon();
-            Wagon wagon2 = new Wagon();
+            Wagon wagon = new Wagon();
 
-            Animal Elephant = new Herbivore("Elephant", 5);
-            Animal Antilope = new Herbivore("Antilope", 3);
-            Animal Chicken = new Herbivore("Chicken", 1);
-            //Animal Monkey = new Herbivore("Monkey", 1);
-            //Animal Squirrel = new Herbivore("Squirrel", 1);
+            Animal animal = new Herbivore("Antilope", 3);
 
-            // Pre make wagon1 so we can test the new functionality
-            wagon1.AddAnimal(Elephant);
-            wagon1.AddAnimal(Antilope);
-
-            train.Wagons.Add(wagon1);
-            train.Wagons.Add(wagon2);
-
-            Wagon smallestEligeableWagon = train.GetSmallestEligeableWagon(Chicken);
-            smallestEligeableWagon.AddAnimal(Chicken);
-
-            // Size should be 9
-            Assert.AreEqual(9, 10 - smallestEligeableWagon.GetSize());
+            Assert.AreEqual(true, wagon.TryAddAnimal(animal));
         }
 
         [TestMethod]
@@ -47,11 +30,11 @@ namespace UnitTestsCircusTrein
             Animal Antilope = new Herbivore("Antilope", 3);
             Animal Tiger = new Carnivore("Tiger", 3);
 
-            wagon.AddAnimal(Antilope);
+            wagon.TryAddAnimal(Antilope);
 
             train.Wagons.Add(wagon);
 
-            Assert.AreEqual(false, wagon.CheckAnimalAdd(Tiger));
+            Assert.AreEqual(false, wagon.TryAddAnimal(Tiger));
         }
 
         [TestMethod]
@@ -65,11 +48,11 @@ namespace UnitTestsCircusTrein
             Animal Elephant = new Herbivore("Elephant", 5);
             Animal Tiger = new Carnivore("Tiger", 3);
 
-            wagon.AddAnimal(Elephant);
+            wagon.TryAddAnimal(Elephant);
 
             train.Wagons.Add(wagon);
 
-            Assert.AreEqual(true, wagon.CheckAnimalAdd(Tiger));
+            Assert.AreEqual(true, wagon.TryAddAnimal(Tiger));
         }
     }
 }

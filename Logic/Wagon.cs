@@ -29,7 +29,7 @@ namespace Logic
         /// Add animal to Wagon
         /// </summary>
         /// <param name="animal"></param>
-        public void AddAnimal(Animal animal)
+        private void AddAnimal(Animal animal)
         {
             // Add the animal to the list and decrease the wagon size
             Animals.Add(animal);
@@ -37,11 +37,11 @@ namespace Logic
         }
 
         /// <summary>
-        /// Check if the animal can be added to the wagon
+        /// Try to add the animal to the wagon
         /// </summary>
         /// <param name="animal"></param>
         /// <returns></returns>
-        public bool CheckAnimalAdd(Animal animal)
+        public bool TryAddAnimal(Animal animal)
         {
             // Check if the maxsize is bigger than the animal size
             // If not we need a new wagon
@@ -56,18 +56,23 @@ namespace Logic
                         // There is no carnivore already in the wagon
                         // Carnivore must be smaller than any potential herbivores
                         Animal smallestHerbivore = this.GetSmallestHerbivore();
-                        if (smallestHerbivore != null && smallestHerbivore.GetSize() > animal.GetSize())
+                        // If size == 0 there is no herbivore
+                        if (smallestHerbivore.GetSize() == 0 || smallestHerbivore.GetSize() > animal.GetSize())
                         {
+                            this.AddAnimal(animal);
+
                             return true;
                         }
                     }
-                } 
+                }
                 else // Animal is a Herbivore
                 {
                     // Is the size bigger than the biggest potential carnivore?
                     Animal biggestCarnivore = this.GetBiggestCarnivore();
                     if (animal.GetSize() > biggestCarnivore.GetSize())
                     {
+                        this.AddAnimal(animal);
+
                         return true;
                     }
                 }
@@ -102,7 +107,7 @@ namespace Logic
         {
             // Loop through the animals since we cannot use LINQ for this
             // Also cannot create new Animal() due to it being an abstract class. Use null instead.
-            Herbivore _animal = null;
+            Herbivore _animal = new Herbivore();
 
             foreach (Animal animal in Animals)
             {
@@ -110,7 +115,7 @@ namespace Logic
                 if (animal is Herbivore)
                 {
                     // If _animal is null this means we can fill it
-                    if (_animal == null)
+                    if (_animal.GetSize() == 0)
                     {
                         _animal = (Herbivore)animal;
                     }
